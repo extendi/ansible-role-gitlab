@@ -76,5 +76,7 @@ registry_nginx['ssl_certificate'] = "{{ gitlab_registry_nginx_ssl_certificate }}
 registry_nginx['ssl_certificate_key'] = "{{ gitlab_registry_nginx_ssl_certificate_key }}"
 gitlab_rails['registry_path'] = "{{ gitlab_registry_path }}"
 
+gitlab_rails['artifacts_path'] = "{{ gitlab_rails_artifacts_path }}"
+
 # To change other settings, see:
 # https://gitlab.com/gitlab-org/omnibus-gitlab/blob/master/README.md#changing-gitlab-yml-settings
