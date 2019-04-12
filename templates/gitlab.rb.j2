@@ -78,5 +78,7 @@ gitlab_rails['registry_path'] = "{{ gitlab_registry_path }}"
 
 gitlab_rails['artifacts_path'] = "{{ gitlab_rails_artifacts_path }}"
 
+letsencrypt['enable'] = {{ gitlab_letsencrypt_enable }}
+
 # To change other settings, see:
 # https://gitlab.com/gitlab-org/omnibus-gitlab/blob/master/README.md#changing-gitlab-yml-settings
